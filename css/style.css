@@ -1,0 +1,44 @@
+/* COMMON */
+img {
+    max-width: 100%;
+}
+
+:root {
+    /* Colors */
+    --ms-header-color: #24292f;
+}
+
+/* HEADER */
+.git-logo {
+    width: 80px;
+}
+
+.git-logo-pic {
+    width: 40px;
+}
+
+.git-logo,
+.git-logo-pic {
+    filter: brightness(0) invert(1);
+}
+
+header .navbar-toggler {
+    font-size: 1.6rem;
+    border: none;
+}
+
+header .nav-link {
+    color: white;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    color: green;
+    background-color: green;
+    border: 1px solid black;
+}
+/* MEDIA QUERY */
